@@ -1,0 +1,169 @@
+body {
+    font-family: Exo, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /* Aumento do tamanho da fonte para todo o documento */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.hero {
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #f9f9f9;
+    padding: 30px 0;
+    animation: slideInRight 0.5s forwards; 
+}
+
+.services {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services h2 {
+    text-align: center;
+    color: #F78534;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.service {
+    flex: 1 1 calc(50% - 40px);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.visita {
+    color: #f9f9f9;
+    font-size: 22px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.about {
+    color: #f9f9f9;
+    text-size-adjust: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.service-text {
+    padding: 10px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.about, .contact {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+.input-group input,
+.btn {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-group input {
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background-color: #F78534;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    text-size-adjust: 6px;
+    padding: 20px 0;
+    background-color: #F78534;
+    color: #fff;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.whatsapp-float img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

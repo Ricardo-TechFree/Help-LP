@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpDigital Itatiba Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            background-image: url('pictures/bitmap.png');
+            background-size: cover;
+            background-position: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="pictures/HD_ita01.png" alt="Logo" class="logo">
+        </header>
+        <main>
+            <section class="hero">
+                <h1><span style="color: #f78534; font-family: 'Roboto', sans-serif;"></span>Tenha um especialista em TI dedicado a um <strong> custo reduzido.</strong></h1>
+                
+            
+            </section>
+            <section class="services">
+                <h2>Nossos Serviços</h2>
+                <div class="service-container">
+                    <div class="service">
+                        <img src="pictures/monitor.png" alt="Serviço 1" height="150px">
+                        <div class="service-text">
+                            <h3 class="h3">Suporte Técnico</h3>
+                            <p>Suporte técnico remoto ou presencial para resolver problemas de software e hardware em computadores e laptops.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="pictures/Redes.png" alt="Serviço 2" height="150">
+                        <div class="service-text">
+                            <h3>Gerenciamento de Rede</h3>
+                            <p>Configuração e manutenção de redes locais e sem fio, incluindo roteadores, switches e pontos de acesso.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="pictures/Server.jpg" alt="Serviço 3" height="150">
+                        <div class="service-text">
+                            <h3>Gerenciamento de Servidores</h3>
+                            <p>Configuração e manutenção de servidores locais ou em nuvem para hospedagem de sites, e-mails ou aplicativos.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="pictures/Antivirus.png" alt="Serviço 3" height="150">
+                        <div class="service-text">
+                            <h3>Cybersegurança</h3>
+                            <p>Implementação de medidas de segurança cibernética, como firewalls, antivírus e backups regulares de dados.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="visita">
+                        
+                            <p>Marque uma visita e se surpreenda com a qualidade e o preço que praticamos no mercado. Aproveite e tenha um <strong><span style="color: #f78534;"> diagnóstico gratuito!</span></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <h2>Quem Somos</h2>
+                <p>A Help Digital atua no mercado há mais de 20 anos, oferecendo soluções inovadoras em TI. Agora, com uma unidade mais próxima, estamos prontos para atendê-lo.</p>
+            </section>
+            <section class="contact">
+                <h2>Entre em Contato</h2>
+                
+                <form id="contactForm" action="enviar_email.php" method="post">
+
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" placeholder="Nome" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Telefone" required>  
+                    </div>
+                    <div class="newsletter">
+                        <input type="checkbox" id="newsletterCheckbox" name="newsletterCheckbox">
+                        <label for="newsletterCheckbox">Quero receber notícias e atualizações por e-mail.</label>
+                    </div>
+                    <button type="submit" id="submitButton" class="btn">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 HelpDigital Itatiba. Todos os direitos reservados.</p>
+        </footer>
+        <a href="https://api.whatsapp.com/send?phone=5511988180928&text=Olá! Gostaria de saber mais sobre os serviços da HelpDigital Itatiba." class="whatsapp-float" target="_blank">
+            <img src="pictures/whatsapp-icon.png" alt="WhatsApp">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
