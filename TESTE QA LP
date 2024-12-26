@@ -7,29 +7,39 @@ Data: 26/12/2024
 Autor: Ricardo Magalhaes
 
 2. Descrição do Teste
-Objetivo: Garantir que todos os links e botões na landing page redirecionem para as páginas corretas.
+Objetivo: Garantir que todos os links e botões na landing page redirecionem para as páginas corretas, incluindo links para serviços externos como o WhatsApp.
 
 3. Pré-condições
 A landing page deve estar publicada e acessível online.
+O Selenium WebDriver deve estar instalado e configurado corretamente.
 
-4. Passos para Execução
-Acesse a URL da landing page.
-Clique em cada link e botão da página.
-Observe o redirecionamento.
+4. Ferramentas Utilizadas
+Selenium: Versão 4.27.1
+WebDriver: ChromeDriver
 
-5. Resultados Esperados
+5. Passos para Execução
+Iniciar o script de teste em Python.
+Inserir a URL da landing page quando solicitado.
+O script irá:
+- Acessar a URL da LP.
+- Encontrar todos os links na página.
+- Clicar em cada link e verificar se o redirecionamento está correto.
+- Lidar com janelas pop-up ou redirecionamentos externos.
+
+6. Resultados Esperados
 Cada link deve redirecionar para a URL correta e carregar a página esperada.
+Links que abrem em novas janelas devem ser tratados adequadamente.
 Cada botão de resultar em uma ação como a indicada pelo rótulo do botão.
 
-6. Resultados Obtidos
+7. Resultados Obtidos
 Link : (a LP não contém link)
 Botão 1 : "Enviar" - Resultado: Envio correto do formulário correetamente preenchido.
 Botão 2 : "WhatsApp" - Resultado: Direcionado para pagina de WhatsApp para iniciar conversa com o contato configurado.
 
-7. Status do Teste
+8. Status do Teste
 Passou: Todos os links redirecionaram corretamente.
 
-8. Observações
+9. Observações
 Todos os testes funcionais foram bem-sucedidos.
 Recomenda-se realizar testes periódicos para garantir a continuidade do funcionamento.
 
