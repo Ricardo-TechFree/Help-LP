@@ -24,7 +24,7 @@ Cada botão de resultar em uma ação como a indicada pelo rótulo do botão.
 6. Resultados Obtidos
 Link : (a LP não contém link)
 Botão 1 : "Enviar" - Resultado: Envio correto do formulário correetamente preenchido.
-Botão 2 : "WhatsApp" - Resultado: Direcionado para pagina de WhatsApp para niciar conversa com o contato configurado.
+Botão 2 : "WhatsApp" - Resultado: Direcionado para pagina de WhatsApp para iniciar conversa com o contato configurado.
 
 7. Status do Teste
 Passou: Todos os links redirecionaram corretamente.
