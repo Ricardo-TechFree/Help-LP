@@ -1,0 +1,38 @@
+      Documento de Teste Funcional
+
+1. Identificação do Teste
+ID do Teste: TC001
+Nome do Teste: Verificação de Links e Botões na Landing Page
+Data: 26/12/2024
+Autor: Ricardo Magalhaes
+
+2. Descrição do Teste
+Objetivo: Garantir que todos os links e botões na landing page redirecionem para as páginas corretas.
+
+3. Pré-condições
+A landing page deve estar publicada e acessível online.
+
+4. Passos para Execução
+Acesse a URL da landing page.
+Clique em cada link e botão da página.
+Observe o redirecionamento.
+
+5. Resultados Esperados
+Cada link deve redirecionar para a URL correta e carregar a página esperada.
+Cada botão de resultar em uma ação como a indicada pelo rótulo do botão.
+
+6. Resultados Obtidos
+Link : (a LP não contém link)
+Botão 1 : "Enviar" - Resultado: Envio correto do formulário correetamente preenchido.
+Botão 2 : "WhatsApp" - Resultado: Direcionado para pagina de WhatsApp para niciar conversa com o contato configurado.
+
+7. Status do Teste
+Passou: Todos os links redirecionaram corretamente.
+
+8. Observações
+Todos os testes funcionais foram bem-sucedidos.
+Recomenda-se realizar testes periódicos para garantir a continuidade do funcionamento.
+
+Resumo dos Testes Funcionais
+ID do Teste	Nome do Teste	Status
+TC001	Verificação de Links E Botões	- Passou
